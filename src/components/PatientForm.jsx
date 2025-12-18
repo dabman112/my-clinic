@@ -56,7 +56,6 @@ export default function PatientForm({ addPatient }) {
       <textarea name="notes" placeholder="Notes" value={form.notes} onChange={onChange} />
       <div style={{display:"flex", gap:8}}>
         <button type="submit">Add Patient</button>
-        <button type="button" className="secondary" onClick={() => setForm({ firstName: "", lastName: "", dob: "", gender: "Male", phone: "", notes: "" })}>Clear</button>
         <button type="button" className="secondary" onClick={() => setForm({ firstName: "", lastName: "", dob: "", gender: "", phone: "", notes: "" })}>Clear</button>
       </div>
     </form>
