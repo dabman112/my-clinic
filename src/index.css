@@ -21,3 +21,8 @@ button.secondary{background:#e2e8f0;color:#0f172a}
 @media(max-width:800px){.grid{grid-template-columns:1fr;}}
 .summary{display:flex;gap:12px;margin-top:12px}
 .summary .card-small{flex:1;padding:12px;background:#fff;border-radius:8px;box-shadow:0 1px 6px rgba(2,6,23,0.04)}
+label.small {
+  display: block;
+  margin-top: 6px;
+  font-weight: 500;
+}
