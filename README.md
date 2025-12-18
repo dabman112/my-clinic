@@ -1,2 +1,2 @@
 # my-clinic
-My Project
+Patient & Clinic Management Application
